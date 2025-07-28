@@ -20,7 +20,7 @@
           <div class="row">
             <div class="col-md-6 mb-3">
               <label for="tipoCuenta" class="form-label">Tipo de Cuenta</label>
-              <select id="tipoCuenta" v-model="cuenta.tipoCuentaId" class="form-select" required>
+              <select id="tipoCuenta" v-model="cuenta.tipo" class="form-select" required>
                 <option value="" disabled>Seleccione un tipo de cuenta</option>
                 <option v-for="tipo in tiposDeCuenta" :key="tipo.id" :value="tipo.id">{{ tipo.nombre }}</option>
               </select>
@@ -66,7 +66,7 @@ export default {
       cuenta: {
         numeroCuenta: '',
         saldo: 0,
-        tipoCuentaId: '',
+        tipo: '',
         clienteId: ''
       },
       isEditMode: false

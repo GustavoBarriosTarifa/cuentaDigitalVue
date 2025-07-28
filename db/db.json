@@ -57,6 +57,13 @@
       "saldo": 10,
       "numeroCuenta": "11111",
       "clienteId": null
+    },
+    {
+      "id": "a837",
+      "numeroCuenta": "11111",
+      "saldo": 1,
+      "tipo": "tipo_ahorro",
+      "clienteId": "123b"
     }
   ],
   "tiposDeCuenta": [
