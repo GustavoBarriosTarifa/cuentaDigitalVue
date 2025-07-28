@@ -73,12 +73,10 @@ export default {
     };
   },
   computed: {
-    ...mapState(['clientes']),
-    ...mapState('tiposDeCuenta', ['tiposDeCuenta'])
+    ...mapState(['clientes', 'tiposDeCuenta'])
   },
   methods: {
-    ...mapActions(['createCuenta', 'updateCuenta', 'fetchCuentaById', 'fetchClientes']),
-    ...mapActions('tiposDeCuenta', ['fetchTiposDeCuenta']),
+    ...mapActions(['createCuenta', 'updateCuenta', 'fetchCuentaById', 'fetchClientes', 'fetchTiposDeCuenta']),
     guardarCuenta() {
       if (this.isEditMode) {
         this.updateCuenta(this.cuenta)
