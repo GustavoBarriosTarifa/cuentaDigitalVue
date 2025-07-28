@@ -1,0 +1,72 @@
+{
+  "clientes": [
+    {
+      "id": "1",
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "cedula": "12345678",
+      "email": "juan.perez@example.com"
+    },
+    {
+      "id": "2",
+      "nombre": "María",
+      "apellido": "Gómez",
+      "cedula": "87654321",
+      "email": "maria.gomez@example.com"
+    },
+    {
+      "id": "123b",
+      "nombre": "Gustavo",
+      "apellido": "Barrios",
+      "cedula": "888888",
+      "email": "gustavo@gmail.com"
+    }
+  ],
+  "cuentas": [
+    {
+      "id": "a1b2c3d4",
+      "tipo": "tipo_ahorro",
+      "saldo": 1500.5,
+      "numeroCuenta": "1001-2001-3001",
+      "clienteId": "1"
+    },
+    {
+      "id": "e5f6g7h8",
+      "tipo": "tipo_corriente",
+      "saldo": 5000,
+      "numeroCuenta": "1002-2002-4002",
+      "clienteId": "2"
+    },
+    {
+      "id": "f9g0h1i2",
+      "tipo": "tipo_ahorro",
+      "saldo": 3500,
+      "numeroCuenta": "1003-2003-3003",
+      "clienteId": "123b"
+    },
+    {
+      "id": "0a00",
+      "tipo": "tipo_corriente",
+      "saldo": 1000,
+      "numeroCuenta": "111111",
+      "clienteId": "123b"
+    },
+    {
+      "id": "4589",
+      "tipo": "tipo_ahorro",
+      "saldo": 10,
+      "numeroCuenta": "11111",
+      "clienteId": null
+    }
+  ],
+  "tiposDeCuenta": [
+    {
+      "id": "tipo_ahorro",
+      "nombre": "Ahorro"
+    },
+    {
+      "id": "tipo_corriente",
+      "nombre": "Corriente"
+    }
+  ]
+}

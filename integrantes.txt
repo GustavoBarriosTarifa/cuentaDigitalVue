@@ -1,0 +1,10 @@
+Practica 2 Vue3
+Nombre del integrante:
+- Gustavo Miguel Barrios Tarifa   C.I.: 8305378 
+
+Pasos para iniciar el proyecto
+1) npm install
+PARA FRONTEND
+2) npm run serve
+PARA BACKEND LEVANTAMOS OTRO SERVICIO 
+3) npm run json-server
